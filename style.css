@@ -6,38 +6,55 @@ div.text {
 div.menu {
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    background-color: #000000;
+    padding: 20px;
     font-size: 20px;
     font-family: sans-serif;
     font-weight: 500;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 body {
-    background-color: whitesmoke;
+    margin: 0px;
+    background-color: #f5f5f5;
 }
 
 div.grid {
     display: flex;
     flex-wrap: wrap;
+    margin: 20px;
 }
 
 .grid img {
     display: flex;
-    width: 100px;
-    height: 100px;
-    justify-content: space-between;
-    align-content: space-between;
-    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 10%;
+    left: 50%;
+    border: 2px solid #000000;
     border-radius: 50px;
+}
+
+.grid p {
+    position: relative;
+    bottom: 10%
+}
+
+.grid ul {
+    position: relative;
+    bottom: 25%;
 }
 
 .origami {
     display: flex;
+    flex-wrap: wrap;
     border-radius: 20px;
-    background-color: white;
-    width: 410px;
+    background-color: #ffffff;
+    width: 310px;
     height: 400px;
+    margin: 50px;
+    padding: 25px;
     font-family: fantasy;
     align-content: space-between;
     justify-content: space-between;
