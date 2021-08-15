@@ -14,9 +14,25 @@ div.menu {
     color: #f0f8ff;
 }
 
+div.menu a {
+    text-decoration: none;
+}
+
 body {
     margin: 0px;
     background-color: #f5f5f5;
+}
+
+div.bodyimg img {
+    position: relative;
+}
+
+div.bodyimg p {
+    position: relative;
+    color: #f7f2f2;
+    font-size: 50px;
+    font-family: fantasy;
+    bottom: 100px;
 }
 
 div.grid {
@@ -58,4 +74,16 @@ div.grid {
     font-family: fantasy;
     align-content: space-between;
     justify-content: space-between;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+.origami :hover {
+    transform: scale(1.2);
 }
